@@ -1,0 +1,13 @@
+{
+    "name": "phpseclib/api-docs",
+    "require": {
+        "phpseclib/phpseclib": "*",
+        "apigen/apigen": "*"
+    },
+    "authors": [
+        {
+            "name": "PhpSecLib",
+            "email": "terrafrost@php.net"
+        }
+    ]
+}
