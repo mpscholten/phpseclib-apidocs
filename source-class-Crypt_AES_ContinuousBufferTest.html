@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+	<meta name="robots" content="noindex" />
+
+	<title>File phpseclib/tests/Crypt/AES/ContinuousBufferTest.php</title>
+
+	<script type="text/javascript" src="resources/combined.js?1724984941"></script>
+	<script type="text/javascript" src="elementlist.js?1342240621"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li><a href="package-Crypt.html">Crypt<span></span></a>
+						<ul>
+				<li><a href="package-Crypt.AES.html">AES</a>
+						</li>
+				<li><a href="package-Crypt.Blowfish.html">Blowfish</a>
+						</li>
+				<li><a href="package-Crypt.DES.html">DES</a>
+						</li>
+				<li><a href="package-Crypt.Hash.html">Hash</a>
+						</li>
+				<li><a href="package-Crypt.Random.html">Random</a>
+						</li>
+				<li><a href="package-Crypt.RC4.html">RC4</a>
+						</li>
+				<li><a href="package-Crypt.Rijndael.html">Rijndael</a>
+						</li>
+				<li><a href="package-Crypt.RSA.html">RSA</a>
+						</li>
+				<li><a href="package-Crypt.TerraDES.html">TerraDES</a>
+						</li>
+				<li><a href="package-Crypt.Twofish.html">Twofish</a>
+						</li>
+							</ul></li>
+				<li><a href="package-File.html">File<span></span></a>
+						<ul>
+				<li><a href="package-File.ANSI.html">ANSI</a>
+						</li>
+				<li><a href="package-File.ASN1.html">ASN1</a>
+						</li>
+				<li><a href="package-File.X509.html">X509</a>
+						</li>
+							</ul></li>
+				<li><a href="package-Math.html">Math<span></span></a>
+						<ul>
+				<li><a href="package-Math.BigInteger.html">BigInteger</a>
+						</li>
+							</ul></li>
+				<li><a href="package-Net.html">Net<span></span></a>
+						<ul>
+				<li><a href="package-Net.SCP.html">SCP</a>
+						</li>
+				<li><a href="package-Net.SFTP.html">SFTP<span></span></a>
+						<ul>
+				<li><a href="package-Net.SFTP.Stream.html">Stream</a>
+						</li>
+							</ul></li>
+				<li><a href="package-Net.SSH1.html">SSH1</a>
+						</li>
+				<li><a href="package-Net.SSH2.html">SSH2</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-None.html">None</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Crypt_AES_ContinuousBufferTest.html">Crypt_AES_ContinuousBufferTest</a></li>
+				<li><a href="class-Crypt_AES_TestCase.html">Crypt_AES_TestCase</a></li>
+				<li><a href="class-Crypt_Hash_MD5Test.html">Crypt_Hash_MD5Test</a></li>
+				<li><a href="class-Crypt_Hash_TestCase.html">Crypt_Hash_TestCase</a></li>
+				<li><a href="class-Math_BigInteger_BCMathTest.html">Math_BigInteger_BCMathTest</a></li>
+				<li><a href="class-Math_BigInteger_GMPTest.html">Math_BigInteger_GMPTest</a></li>
+				<li><a href="class-Math_BigInteger_InternalOpenSSLTest.html">Math_BigInteger_InternalOpenSSLTest</a></li>
+				<li><a href="class-Math_BigInteger_InternalTest.html">Math_BigInteger_InternalTest</a></li>
+				<li><a href="class-Math_BigInteger_TestCase.html">Math_BigInteger_TestCase</a></li>
+				<li><a href="class-PhpseclibTestCase.html">PhpseclibTestCase</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-phpseclib_autoload.html">phpseclib_autoload</a></li>
+				<li><a href="function-phpseclib_is_includable.html">phpseclib_is_includable</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="package-None.html" title="Summary of None"><span>Package</span></a>
+			</li>
+			<li>
+				<a href="class-Crypt_AES_ContinuousBufferTest.html" title="Summary of Crypt_AES_ContinuousBufferTest"><span>Class</span></a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<pre><code><span id="1" class="l"><a class="l" href="#1"> 1: </a><span class="xlang">&lt;?php</span>
+</span><span id="2" class="l"><a class="l" href="#2"> 2: </a><span class="php-comment">/**
+</span></span><span id="3" class="l"><a class="l" href="#3"> 3: </a><span class="php-comment"> * @author     Andreas Fischer &lt;bantu@phpbb.com&gt;
+</span></span><span id="4" class="l"><a class="l" href="#4"> 4: </a><span class="php-comment"> * @copyright  MMXIII Andreas Fischer
+</span></span><span id="5" class="l"><a class="l" href="#5"> 5: </a><span class="php-comment"> * @license    http://www.opensource.org/licenses/mit-license.html  MIT License
+</span></span><span id="6" class="l"><a class="l" href="#6"> 6: </a><span class="php-comment"> */</span>
+</span><span id="7" class="l"><a class="l" href="#7"> 7: </a>
+</span><span id="8" class="l"><a class="l" href="#8"> 8: </a><span class="php-keyword1">class</span> <a id="Crypt_AES_ContinuousBufferTest" href="#Crypt_AES_ContinuousBufferTest">Crypt_AES_ContinuousBufferTest</a> <span class="php-keyword1">extends</span> Crypt_AES_TestCase
+</span><span id="9" class="l"><a class="l" href="#9"> 9: </a>{
+</span><span id="10" class="l"><a class="l" href="#10">10: </a>    <span class="php-comment">// String intented</span>
+</span><span id="11" class="l"><a class="l" href="#11">11: </a>    <span class="php-keyword1">protected</span> <span class="php-var"><a id="$modes" href="#$modes">$modes</a></span> = <span class="php-keyword1">array</span>(
+</span><span id="12" class="l"><a class="l" href="#12">12: </a>        <span class="php-quote">'CRYPT_AES_MODE_CTR'</span>,
+</span><span id="13" class="l"><a class="l" href="#13">13: </a>        <span class="php-quote">'CRYPT_AES_MODE_OFB'</span>,
+</span><span id="14" class="l"><a class="l" href="#14">14: </a>        <span class="php-quote">'CRYPT_AES_MODE_CFB'</span>,
+</span><span id="15" class="l"><a class="l" href="#15">15: </a>    );
+</span><span id="16" class="l"><a class="l" href="#16">16: </a>
+</span><span id="17" class="l"><a class="l" href="#17">17: </a>    <span class="php-keyword1">protected</span> <span class="php-var"><a id="$plaintexts" href="#$plaintexts">$plaintexts</a></span> = <span class="php-keyword1">array</span>(
+</span><span id="18" class="l"><a class="l" href="#18">18: </a>        <span class="php-quote">''</span>,
+</span><span id="19" class="l"><a class="l" href="#19">19: </a>        <span class="php-quote">'12345678901234567'</span>, <span class="php-comment">// https://github.com/phpseclib/phpseclib/issues/39</span>
+</span><span id="20" class="l"><a class="l" href="#20">20: </a>        <span class="php-quote">&quot;\xDE\xAD\xBE\xAF&quot;</span>,
+</span><span id="21" class="l"><a class="l" href="#21">21: </a>        <span class="php-quote">':-):-):-):-):-):-)'</span>, <span class="php-comment">// https://github.com/phpseclib/phpseclib/pull/43</span>
+</span><span id="22" class="l"><a class="l" href="#22">22: </a>    );
+</span><span id="23" class="l"><a class="l" href="#23">23: </a>
+</span><span id="24" class="l"><a class="l" href="#24">24: </a>    <span class="php-keyword1">protected</span> <span class="php-var"><a id="$ivs" href="#$ivs">$ivs</a></span> = <span class="php-keyword1">array</span>(
+</span><span id="25" class="l"><a class="l" href="#25">25: </a>        <span class="php-quote">''</span>,
+</span><span id="26" class="l"><a class="l" href="#26">26: </a>        <span class="php-quote">'test123'</span>,
+</span><span id="27" class="l"><a class="l" href="#27">27: </a>    );
+</span><span id="28" class="l"><a class="l" href="#28">28: </a>
+</span><span id="29" class="l"><a class="l" href="#29">29: </a>    <span class="php-keyword1">protected</span> <span class="php-var"><a id="$keys" href="#$keys">$keys</a></span> = <span class="php-keyword1">array</span>(
+</span><span id="30" class="l"><a class="l" href="#30">30: </a>        <span class="php-quote">''</span>,
+</span><span id="31" class="l"><a class="l" href="#31">31: </a>        <span class="php-quote">':-8'</span>,      <span class="php-comment">// https://github.com/phpseclib/phpseclib/pull/43</span>
+</span><span id="32" class="l"><a class="l" href="#32">32: </a>        <span class="php-quote">'FOOBARZ'</span>,
+</span><span id="33" class="l"><a class="l" href="#33">33: </a>    );
+</span><span id="34" class="l"><a class="l" href="#34">34: </a>
+</span><span id="35" class="l"><a class="l" href="#35">35: </a>    <span class="php-comment">/**
+</span></span><span id="36" class="l"><a class="l" href="#36">36: </a><span class="php-comment">    * Produces all combinations of test values.
+</span></span><span id="37" class="l"><a class="l" href="#37">37: </a><span class="php-comment">    *
+</span></span><span id="38" class="l"><a class="l" href="#38">38: </a><span class="php-comment">    * @return array
+</span></span><span id="39" class="l"><a class="l" href="#39">39: </a><span class="php-comment">    */</span>
+</span><span id="40" class="l"><a class="l" href="#40">40: </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="_allCombinations" href="#_allCombinations">allCombinations</a>()
+</span><span id="41" class="l"><a class="l" href="#41">41: </a>    {
+</span><span id="42" class="l"><a class="l" href="#42">42: </a>        <span class="php-var">$result</span> = <span class="php-keyword1">array</span>();
+</span><span id="43" class="l"><a class="l" href="#43">43: </a>
+</span><span id="44" class="l"><a class="l" href="#44">44: </a>        <span class="php-keyword1">foreach</span> (<span class="php-var">$this</span>-&gt;modes <span class="php-keyword1">as</span> <span class="php-var">$mode</span>)
+</span><span id="45" class="l"><a class="l" href="#45">45: </a>        <span class="php-keyword1">foreach</span> (<span class="php-var">$this</span>-&gt;plaintexts <span class="php-keyword1">as</span> <span class="php-var">$plaintext</span>)
+</span><span id="46" class="l"><a class="l" href="#46">46: </a>        <span class="php-keyword1">foreach</span> (<span class="php-var">$this</span>-&gt;ivs <span class="php-keyword1">as</span> <span class="php-var">$iv</span>)
+</span><span id="47" class="l"><a class="l" href="#47">47: </a>        <span class="php-keyword1">foreach</span> (<span class="php-var">$this</span>-&gt;keys <span class="php-keyword1">as</span> <span class="php-var">$key</span>)
+</span><span id="48" class="l"><a class="l" href="#48">48: </a>            <span class="php-var">$result</span>[] = <span class="php-keyword1">array</span>(<span class="php-var">$mode</span>, <span class="php-var">$plaintext</span>, <span class="php-var">$iv</span>, <span class="php-var">$key</span>);
+</span><span id="49" class="l"><a class="l" href="#49">49: </a>
+</span><span id="50" class="l"><a class="l" href="#50">50: </a>        <span class="php-keyword1">return</span> <span class="php-var">$result</span>;
+</span><span id="51" class="l"><a class="l" href="#51">51: </a>    }
+</span><span id="52" class="l"><a class="l" href="#52">52: </a>
+</span><span id="53" class="l"><a class="l" href="#53">53: </a>    <span class="php-comment">/**
+</span></span><span id="54" class="l"><a class="l" href="#54">54: </a><span class="php-comment">    * @dataProvider allCombinations
+</span></span><span id="55" class="l"><a class="l" href="#55">55: </a><span class="php-comment">    */</span>
+</span><span id="56" class="l"><a class="l" href="#56">56: </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="_testEncryptDecrypt" href="#_testEncryptDecrypt">testEncryptDecrypt</a>(<span class="php-var">$mode</span>, <span class="php-var">$plaintext</span>, <span class="php-var">$iv</span>, <span class="php-var">$key</span>)
+</span><span id="57" class="l"><a class="l" href="#57">57: </a>    {
+</span><span id="58" class="l"><a class="l" href="#58">58: </a>        <span class="php-var">$aes</span> = <span class="php-keyword1">new</span> Crypt_AES(<span class="php-keyword2">constant</span>(<span class="php-var">$mode</span>));
+</span><span id="59" class="l"><a class="l" href="#59">59: </a>        <span class="php-var">$aes</span>-&gt;enableContinuousBuffer();
+</span><span id="60" class="l"><a class="l" href="#60">60: </a>        <span class="php-var">$aes</span>-&gt;setIV(<span class="php-var">$iv</span>);
+</span><span id="61" class="l"><a class="l" href="#61">61: </a>        <span class="php-var">$aes</span>-&gt;setKey(<span class="php-var">$key</span>);
+</span><span id="62" class="l"><a class="l" href="#62">62: </a>
+</span><span id="63" class="l"><a class="l" href="#63">63: </a>        <span class="php-var">$actual</span> = <span class="php-quote">''</span>;
+</span><span id="64" class="l"><a class="l" href="#64">64: </a>        <span class="php-keyword1">for</span> (<span class="php-var">$i</span> = <span class="php-num">0</span>, <span class="php-var">$strlen</span> = <span class="php-keyword2">strlen</span>(<span class="php-var">$plaintext</span>); <span class="php-var">$i</span> &lt; <span class="php-var">$strlen</span>; ++<span class="php-var">$i</span>)
+</span><span id="65" class="l"><a class="l" href="#65">65: </a>        {
+</span><span id="66" class="l"><a class="l" href="#66">66: </a>            <span class="php-var">$actual</span> .= <span class="php-var">$aes</span>-&gt;decrypt(<span class="php-var">$aes</span>-&gt;encrypt(<span class="php-var">$plaintext</span>[<span class="php-var">$i</span>]));
+</span><span id="67" class="l"><a class="l" href="#67">67: </a>        }
+</span><span id="68" class="l"><a class="l" href="#68">68: </a>
+</span><span id="69" class="l"><a class="l" href="#69">69: </a>        <span class="php-var">$this</span>-&gt;assertEquals(<span class="php-var">$plaintext</span>, <span class="php-var">$actual</span>);
+</span><span id="70" class="l"><a class="l" href="#70">70: </a>    }
+</span><span id="71" class="l"><a class="l" href="#71">71: </a>}
+</span><span id="72" class="l"><a class="l" href="#72">72: </a></span></code></pre>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
